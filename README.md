@@ -1,221 +1,127 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Catch Cam Chronicles — Terms of Service</title>
-  <meta name="description" content="Terms of Service for Catch Cam Chronicles, a social media manager that can schedule and post videos for creators." />
-  <meta name="robots" content="index,follow" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎣</text></svg>">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Terms of Service | Catch Cam Chronicles</title>
   <style>
-    :root {
-      --bg: #0b1220;
-      --card: #121a2b;
-      --ink: #e8eefc;
-      --muted: #9fb3d1;
-      --brand: #58a6ff;
-      --border: #21304b;
-      --success: #32d296;
-      --warn: #ffcc00;
-      --danger: #ff6b6b;
-      --code: #0c1527;
-    }
-    html, body { height: 100%; }
-    body {
-      margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
-      background: radial-gradient(1200px 800px at 20% -10%, #13203a 0%, var(--bg) 45%);
-      color: var(--ink);
-      line-height: 1.6;
-    }
-    .wrap { max-width: 900px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
-    header { position: sticky; top: 0; backdrop-filter: blur(8px); background: rgba(11,18,32,0.55); border-bottom: 1px solid var(--border); }
-    header .inner { max-width: 900px; margin: 0 auto; padding: 0.75rem 1.25rem; display: flex; align-items: center; gap: 1rem; }
-    .logo { display: inline-flex; align-items: center; gap: .5rem; font-weight: 700; }
-    .logo span { color: var(--brand); }
-    nav { margin-left: auto; display: flex; gap: .75rem; }
-    nav a { color: var(--muted); text-decoration: none; padding: .4rem .7rem; border: 1px solid transparent; border-radius: .6rem; }
-    nav a:hover { border-color: var(--border); color: var(--ink); }
-
-    h1 { font-size: clamp(1.8rem, 3vw, 2.4rem); margin: 1.2rem 0 .25rem; }
-    .sub { color: var(--muted); font-size: .95rem; margin-bottom: 1.5rem; }
-
-    .card { background: linear-gradient(180deg, rgba(255,255,255,0.015), rgba(255,255,255,0.01)), var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 1.25rem; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
-    .card + .card { margin-top: 1rem; }
-
-    h2 { font-size: 1.25rem; margin: 0 0 .5rem; }
-    h3 { font-size: 1.05rem; margin: 1rem 0 .35rem; color: var(--ink); }
-    p, li { color: #d7e3fb; }
-    a { color: var(--brand); }
-    code { background: var(--code); border: 1px solid var(--border); padding: .12rem .35rem; border-radius: .4rem; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-
-    .meta { display: flex; gap: .75rem; flex-wrap: wrap; color: var(--muted); font-size: .9rem; }
-    .tag { border: 1px solid var(--border); padding: .25rem .55rem; border-radius: .5rem; }
-
-    .actions { display:flex; gap:.5rem; flex-wrap: wrap; }
-    .btn { display:inline-flex; align-items:center; gap:.4rem; border:1px solid var(--border); color: var(--ink); background: transparent; padding:.5rem .8rem; border-radius:.6rem; cursor:pointer; }
-    .btn:hover { border-color: var(--brand); }
-    footer { margin-top: 2rem; color: var(--muted); font-size: .9rem; }
-    .small { font-size: .92rem; color: var(--muted); }
-    .list-tight li { margin:.35rem 0; }
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;margin:0;color:#111;background:#fff}
+    main{max-width:900px;margin:0 auto;padding:40px 20px}
+    h1,h2,h3{line-height:1.25}
+    h1{font-size:2rem;margin:0 0 1rem}
+    h2{font-size:1.25rem;margin-top:2rem}
+    h3{font-size:1.05rem;margin-top:1.25rem}
+    a{color:#0a66c2;text-decoration:none}
+    a:hover{text-decoration:underline}
+    .muted{color:#555}
+    .toc{padding:1rem;border:1px solid #eee;background:#fafafa;border-radius:8px}
+    ul{margin:0 0 1rem 1.25rem}
+    code{background:#f5f5f5;padding:.1rem .3rem;border-radius:4px}
+    footer{margin-top:3rem;font-size:.9rem;color:#555}
   </style>
 </head>
 <body>
-  <header>
-    <div class="inner">
-      <div class="logo" title="Catch Cam Chronicles">
-        <span aria-hidden>🎣</span>
-        <span>Catch Cam Chronicles</span>
-      </div>
-      <nav>
-        <a href="#top">Terms</a>
-        <a href="#privacy">Privacy (summary)</a>
-        <a href="mailto:zach90715@gmail.com">Contact</a>
-        <a href="#print" onclick="window.print();return false;">Print</a>
-      </nav>
-    </div>
-  </header>
+<main>
+  <h1>Catch Cam Chronicles — Terms of Service</h1>
+  <p class="muted">Effective date: August 13, 2025</p>
 
-  <main class="wrap" id="top">
-    <h1>Terms of Service</h1>
-    <p class="sub">Effective date: <strong>August 13, 2025</strong> • App: <strong>Catch Cam Chronicles</strong> — a social media manager that can schedule and post videos for creator <strong>Zach Schmitt</strong>.</p>
+  <div class="toc">
+    <strong>Table of Contents</strong>
+    <ul>
+      <li><a href="#acceptance">1. Acceptance of Terms</a></li>
+      <li><a href="#eligibility">2. Eligibility & Accounts</a></li>
+      <li><a href="#platform-access">3. Third-Party Platform Access (e.g., TikTok, YouTube, Instagram)</a></li>
+      <li><a href="#content">4. Your Content & Licenses</a></li>
+      <li><a href="#conduct">5. Acceptable Use & Prohibited Conduct</a></li>
+      <li><a href="#privacy">6. Privacy & Data</a></li>
+      <li><a href="#payments">7. Plans, Payments, and Cancellations</a></li>
+      <li><a href="#service">8. Service Changes; Availability</a></li>
+      <li><a href="#ip">9. Intellectual Property</a></li>
+      <li><a href="#dmca">10. Copyright Complaints (DMCA)</a></li>
+      <li><a href="#disclaimers">11. Disclaimers</a></li>
+      <li><a href="#limitation">12. Limitation of Liability</a></li>
+      <li><a href="#indemnity">13. Indemnification</a></li>
+      <li><a href="#termination">14. Suspension & Termination</a></li>
+      <li><a href="#law">15. Governing Law; Dispute Resolution</a></li>
+      <li><a href="#misc">16. Miscellaneous</a></li>
+      <li><a href="#contact">17. Contact</a></li>
+    </ul>
+  </div>
 
-    <div class="card">
-      <div class="meta">
-        <span class="tag">Last updated: Aug 13, 2025</span>
-        <span class="tag">Contact: <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a></span>
-        <span class="tag">Jurisdiction: Florida, USA</span>
-      </div>
-    </div>
+  <h2 id="acceptance">1. Acceptance of Terms</h2>
+  <p>These Terms of Service (“<strong>Terms</strong>”) govern your access to and use of the Catch Cam Chronicles application, website(s), and related services (collectively, the “<strong>Service</strong>”). By creating an account, connecting a social media platform, or otherwise using the Service, you agree to be bound by these Terms.</p>
+  <p>If you are using the Service on behalf of a company or organization, you represent that you have authority to bind that entity to these Terms. If you do not agree, do not use the Service.</p>
 
-    <section class="card">
-      <h2>1) Acceptance of Terms</h2>
-      <p>By accessing or using Catch Cam Chronicles (the “Service”), you agree to these Terms of Service (the “Terms”) and our Privacy Notice. If you do not agree, do not use the Service.</p>
-      <p class="small">Note: This is a template provided for convenience and does not constitute legal advice. Consider consulting an attorney before publishing.</p>
-    </section>
+  <h2 id="eligibility">2. Eligibility & Accounts</h2>
+  <p>You must be at least 13 years old to use the Service. If you are under the age of majority in your jurisdiction, you may only use the Service under the supervision of a parent or legal guardian who agrees to be bound by these Terms on your behalf.</p>
+  <p>You are responsible for safeguarding your login credentials and for all activities under your account. Notify us immediately of any unauthorized use or security incident.</p>
 
-    <section class="card">
-      <h2>2) Who May Use the Service</h2>
-      <ul class="list-tight">
-        <li>You must be at least 13 years old (or the minimum age in your country) and capable of forming a binding contract.</li>
-        <li>You agree to comply with all laws, platform rules (e.g., TikTok, YouTube, Instagram), and these Terms.</li>
-      </ul>
-    </section>
+  <h2 id="platform-access">3. Third-Party Platform Access (e.g., TikTok, YouTube, Instagram)</h2>
+  <p>The Service enables you to connect and post content to third-party platforms (such as TikTok, YouTube, Instagram, Facebook, X, and others) (each a “<strong>Platform</strong>”). You authorize the Service to access your connected Platform accounts and to perform actions you configure (for example: uploading videos, scheduling posts, publishing captions, reading analytics) on your behalf.</p>
+  <p>Your use of each Platform remains subject to that Platform’s own terms, policies, and developer rules. We are not affiliated with, endorsed by, or responsible for any Platform. We do not control Platform availability, APIs, features, or enforcement actions. If a Platform restricts, rate-limits, suspends, or terminates your account or API access, it may impact the Service.</p>
+  <p>You must maintain all necessary rights, permissions, and consents to authorize posting of your content to each Platform.</p>
 
-    <section class="card">
-      <h2>3) Accounts & Authentication</h2>
-      <ul class="list-tight">
-        <li>You are responsible for safeguarding your login credentials and access tokens.</li>
-        <li>Do not share credentials; promptly notify us of any unauthorized use.</li>
-        <li>We may suspend or terminate accounts that violate these Terms or third‑party platform rules.</li>
-      </ul>
-    </section>
+  <h2 id="content">4. Your Content & Licenses</h2>
+  <p><strong>Ownership.</strong> You retain all rights in content you provide or upload through the Service (“<strong>User Content</strong>”).</p>
+  <p><strong>License to Us.</strong> Solely to operate and improve the Service, you grant Catch Cam Chronicles a non-exclusive, worldwide, royalty-free license to host, store, reproduce, transcode, format, adapt, publicly display and perform (via your connected Platforms), and distribute User Content, and to create derivative works (e.g., thumbnails, captions, transcodes) as necessary to provide features you choose.</p>
+  <p><strong>Representations.</strong> You represent and warrant that you have all rights to User Content and that posting it via the Service and on connected Platforms will not violate any law or third-party rights (including copyrights, trademarks, privacy, and publicity rights).</p>
+  <p><strong>Feedback.</strong> If you provide feedback, ideas, or suggestions, you grant us a perpetual, irrevocable, royalty-free license to use them without restriction.</p>
 
-    <section class="card">
-      <h2>4) Your Content & Permissions</h2>
-      <p>You retain ownership of videos, captions, and other materials you submit (“<em>User Content</em>”). You grant Catch Cam Chronicles a worldwide, non‑exclusive, royalty‑free license to host, store, process, and transmit User Content solely to provide the Service (e.g., editing, scheduling, and posting to connected accounts).</p>
-      <ul class="list-tight">
-        <li>You affirm you have the necessary rights and permissions to post the User Content.</li>
-        <li>You are solely responsible for the content you schedule or publish using the Service.</li>
-      </ul>
-    </section>
+  <h2 id="conduct">5. Acceptable Use & Prohibited Conduct</h2>
+  <p>You agree not to, and will not allow others to:</p>
+  <ul>
+    <li>Use the Service for unlawful, misleading, infringing, fraudulent, harassing, or harmful activities, including spam or deceptive practices.</li>
+    <li>Post content that is illegal; sexually exploitative; incites violence; includes hate speech; or violates Platform community guidelines.</li>
+    <li>Interfere with or disrupt the Service; attempt to bypass security or rate limits; or reverse engineer the Service.</li>
+    <li>Misuse Platform credentials or share access tokens insecurely. You are responsible for safeguarding API keys, tokens, and logins you provide.</li>
+    <li>Use the Service to collect or process personal data without proper notice and consent where required by law.</li>
+  </ul>
 
-    <section class="card">
-      <h2>5) Third‑Party Platforms</h2>
-      <p>The Service may integrate with platforms such as TikTok, YouTube, and Instagram. Your use of those platforms is governed by their own terms and policies. You must follow their rules, including any automation, rate‑limit, and API usage restrictions.</p>
-    </section>
+  <h2 id="privacy">6. Privacy & Data</h2>
+  <p>Our handling of personal data is described in our Privacy Policy (link or location to be provided by you). By using the Service, you consent to our data practices, including the storage and processing of data in the United States and other countries where we or our service providers operate.</p>
+  <p>We may store OAuth tokens and similar credentials to perform actions you authorize. We implement reasonable safeguards appropriate to the risk, but no method of transmission or storage is completely secure.</p>
 
-    <section class="card">
-      <h2>6) Automation, Scheduling & Consent</h2>
-      <ul class="list-tight">
-        <li>You authorize the Service to perform automated actions you configure (e.g., upload posts, schedule publishing) on your connected accounts.</li>
-        <li>You are responsible for verifying scheduled posts before publication and for complying with any disclosure requirements (e.g., sponsored content).</li>
-      </ul>
-    </section>
+  <h2 id="payments">7. Plans, Payments, and Cancellations</h2>
+  <p><em>(If applicable.)</em> Fees, billing cycles, and plan features will be disclosed at checkout or in your account settings. Taxes may apply. By subscribing, you authorize us and our payment processor to charge your payment method on a recurring basis until you cancel.</p>
+  <p>You can cancel at any time effective at the end of the current billing period. Fees paid are non-refundable unless required by law or expressly stated otherwise.</p>
 
-    <section class="card">
-      <h2>7) Acceptable Use</h2>
-      <ul class="list-tight">
-        <li>No illegal content, harassment, hate, infringement, spam, or deceptive practices.</li>
-        <li>No attempts to bypass platform security, abuse rate limits, or scrape data without permission.</li>
-        <li>No uploading malware or using the Service to compromise accounts.</li>
-      </ul>
-    </section>
+  <h2 id="service">8. Service Changes; Availability</h2>
+  <p>We may modify, suspend, or discontinue all or part of the Service at any time. We do not guarantee continuous, timely, or error-free operation, particularly where third-party Platforms or networks are involved. Scheduled posts may fail or be delayed due to Platform limits, outages, or policy changes.</p>
 
-    <section class="card">
-      <h2>8) Fees; Changes to Service</h2>
-      <p>We may offer free or paid plans. Prices and features may change with reasonable notice posted here or in‑app. Taxes and third‑party fees are your responsibility.</p>
-    </section>
+  <h2 id="ip">9. Intellectual Property</h2>
+  <p>The Service, including our trademarks, logos, software, templates, and documentation, is owned by Catch Cam Chronicles or its licensors and is protected by intellectual-property laws. Except for rights expressly granted in these Terms, no license or right is granted to you.</p>
 
-    <section class="card">
-      <h2>9) Intellectual Property</h2>
-      <p>We and our licensors own the Service’s software, brand, and design. Except for your User Content, all rights are reserved. You may not copy, modify, or create derivative works of the Service.</p>
-    </section>
+  <h2 id="dmca">10. Copyright Complaints (DMCA)</h2>
+  <p>If you believe content accessible via the Service infringes your copyright, please send a notice that includes: (a) your contact information; (b) identification of the copyrighted work; (c) identification of the allegedly infringing material and its location; (d) a statement of good-faith belief; (e) a statement under penalty of perjury that your notice is accurate and that you are authorized to act; and (f) your physical or electronic signature. Send notices to: <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a>.</p>
 
-    <section class="card">
-      <h2>10) Feedback</h2>
-      <p>If you give us feedback or suggestions, you grant us a royalty‑free right to use them without restriction.</p>
-    </section>
+  <h2 id="disclaimers">11. Disclaimers</h2>
+  <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, SECURE, OR ERROR-FREE, OR THAT PLATFORM INTEGRATIONS WILL REMAIN AVAILABLE OR UNCHANGED.</p>
 
-    <section class="card">
-      <h2>11) DMCA / Copyright</h2>
-      <p>If you believe content posted via the Service infringes your copyright, email <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a> with: (a) your signature; (b) the work infringed; (c) the material and its location; (d) your contact info; (e) a statement of good‑faith belief; and (f) a statement under penalty of perjury that the information is accurate and you are authorized to act.</p>
-    </section>
+  <h2 id="limitation">12. Limitation of Liability</h2>
+  <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, CATCH CAM CHRONICLES AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, AND SUPPLIERS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO YOUR USE OF THE SERVICE. OUR TOTAL LIABILITY FOR ANY CLAIM RELATING TO THE SERVICE WILL NOT EXCEED THE GREATER OF (A) THE AMOUNT YOU PAID US FOR THE SERVICE IN THE 3 MONTHS BEFORE THE EVENT GIVING RISE TO LIABILITY OR (B) $100.</p>
 
-    <section class="card">
-      <h2>12) Disclaimers</h2>
-      <p>THE SERVICE IS PROVIDED “AS IS” AND “AS AVAILABLE” WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON‑INFRINGEMENT. We do not guarantee uninterrupted or error‑free operation or that posts will always publish at the exact scheduled time.</p>
-    </section>
+  <h2 id="indemnity">13. Indemnification</h2>
+  <p>You will indemnify and hold harmless Catch Cam Chronicles and its affiliates, officers, employees, and agents from and against any claims, liabilities, damages, losses, and expenses (including reasonable attorneys’ fees) arising from or related to: (a) your User Content; (b) your use of the Service; (c) your violation of these Terms; or (d) your violation of any law or third-party rights.</p>
 
-    <section class="card">
-      <h2>13) Limitation of Liability</h2>
-      <p>To the maximum extent permitted by law, we will not be liable for any indirect, incidental, special, consequential, or punitive damages, or for lost profits, revenues, or data, arising from your use of the Service. Our aggregate liability shall not exceed the greater of $100 or the amounts you paid to use the Service in the 3 months before the claim.</p>
-    </section>
+  <h2 id="termination">14. Suspension & Termination</h2>
+  <p>We may suspend or terminate your access to the Service immediately if we believe you have violated these Terms or pose a risk to the Service, Platforms, or other users. You may stop using the Service at any time. Sections of these Terms that by their nature should survive termination will survive (including payment obligations, disclaimers, limitations of liability, and indemnification).</p>
 
-    <section class="card">
-      <h2>14) Indemnification</h2>
-      <p>You agree to defend, indemnify, and hold harmless Catch Cam Chronicles and its affiliates from any claims, liabilities, damages, losses, and expenses arising out of or related to your User Content, your use of the Service, or your breach of these Terms.</p>
-    </section>
+  <h2 id="law">15. Governing Law; Dispute Resolution</h2>
+  <p>These Terms are governed by the laws of the State of Florida, USA, without regard to conflict-of-laws principles. Any dispute will be resolved in the state or federal courts located in Florida, and you consent to their jurisdiction and venue.</p>
+  <p><em>Optional arbitration clause (remove if you prefer court only):</em> Any dispute arising out of or relating to these Terms or the Service will be resolved by binding arbitration on an individual basis, and you waive any right to participate in a class action. Judgment on the award may be entered in any court of competent jurisdiction.</p>
 
-    <section class="card">
-      <h2>15) Suspension & Termination</h2>
-      <p>We may suspend or terminate access if you violate these Terms, misuse the Service, or if required by law or platform partners. You may stop using the Service at any time; certain clauses survive termination.</p>
-    </section>
+  <h2 id="misc">16. Miscellaneous</h2>
+  <p>We may update these Terms from time to time. The “Effective date” above reflects the latest revision. Continued use of the Service after changes become effective constitutes acceptance of the revised Terms.</p>
+  <p>If any provision is found unenforceable, the remaining provisions will remain in full force. You may not assign these Terms without our prior written consent. We may assign these Terms freely.</p>
+  <p>Headings are for convenience only. These Terms, together with any policies or addenda expressly incorporated by reference (including our Privacy Policy), constitute the entire agreement between you and Catch Cam Chronicles regarding the Service and supersede any prior agreements.</p>
 
-    <section class="card">
-      <h2>16) Governing Law; Disputes</h2>
-      <p>These Terms are governed by the laws of the State of Florida, USA, without regard to conflict‑of‑laws principles. Any dispute will be resolved in the state or federal courts located in Florida, unless otherwise required by applicable law.</p>
-    </section>
+  <h2 id="contact">17. Contact</h2>
+  <p>If you have questions about these Terms or the Service, contact: <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a>.</p>
 
-    <section class="card" id="privacy">
-      <h2>17) Privacy (Summary)</h2>
-      <p>We collect only what we need to operate the Service (e.g., account identifiers, access tokens, media metadata, scheduling data, logs). We use it to provide features like editing and scheduled posting. We do not sell your personal information.</p>
-      <ul class="list-tight">
-        <li><strong>Data you provide:</strong> account details, videos, captions, schedules.</li>
-        <li><strong>Data from platforms:</strong> limited tokens/permissions you grant.</li>
-        <li><strong>Security:</strong> reasonable technical and organizational measures, but no system is 100% secure.</li>
-        <li><strong>Your choices:</strong> disconnect platforms, delete content, or request deletion via <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a>.</li>
-      </ul>
-      <p>See our full privacy policy at <code>/privacy</code> (create a <code>privacy.html</code> file in the same repo).</p>
-    </section>
-
-    <section class="card">
-      <h2>18) Changes to These Terms</h2>
-      <p>We may update these Terms from time to time. We will post the updated Terms here with a new “Last updated” date and, if changes are material, we will provide additional notice where appropriate. Continued use means you accept the revised Terms.</p>
-    </section>
-
-    <section class="card">
-      <h2>19) Contact</h2>
-      <p>Questions? Email <a href="mailto:zach90715@gmail.com">zach90715@gmail.com</a>.</p>
-    </section>
-
-    <footer>
-      <p>© <span id="year"></span> Catch Cam Chronicles. All rights reserved.</p>
-      <p class="small">This page is intentionally lightweight so it works well on GitHub Pages. View source to customize language for your exact workflows and platform integrations.</p>
-    </footer>
-  </main>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <footer>
+    <p>&copy; <span id="year"></span> Catch Cam Chronicles. All rights reserved.</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</main>
 </body>
 </html>
